@@ -1,7 +1,7 @@
 .main-section {
     background-color: grey;
-    position: absolute;
+    position: auto;
     color: black;
-    padding-right: 2px;
+   
 }
 .section-head {text-align: center;}
