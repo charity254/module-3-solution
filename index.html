@@ -1,77 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tasty Delicacies</title>
-    </head>
-    <body>
-        <header>
-        <nav class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-    <a class="navbar-brand">Food, LLC</a>
-  </div>
-  <button type="button" class="navbar-toggle collapsed" id="dropdown-toggle" aria-expanded="false">
-    <span>Menu</span>
-</button>
-<div class="dropdown-menu" id="dropdown-menu">
-    <ul>
-        <li><a href="#beef-section">Beef</a></li>
-        <li><a href="#chicken-section">Chicken</a></li>
-        <li><a href="#sushi-section">Sushi</a></li>
-    </ul>
-</div>
-</div>
-</nav>
-</header>
-    <!-- Page Heading -->
-    <div class="container text-center">
-        <h1>Our Menu</h1>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-    <!-- Main Content Section -->
-        <div class="container">
-        <section class="main-section">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 id="beef-section" class="section-head">Beef</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>
-              </div>
-                </div>
-             </section>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#">Food, LLC</a>
         </div>
-   
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown visible-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Chicken</a></li>
+                        <li><a href="#">Beef</a></li>
+                        <li><a href="#">Sushi</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Heading -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1>Our Menu</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Tall Section -->
+<div class="tall-section">
     <div class="container">
-        <section class="main-section">    
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 id="#chicken-section" class="section-head">Chicken</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>         
-            
-                </div>
+        <div class="row">
+            <div class="col-xs-12">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>
             </div>
-        </section>
+        </div>
     </div>
-   
-    <div class="container">
-        <section class="main-section">
-            
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 id="#sushi-section" class="section-head">Sushi</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>
-                </div>
-                </div>
-            </section>
-    </div>
-   
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
 </html>
-        
-
