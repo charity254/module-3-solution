@@ -15,13 +15,17 @@
             <div class="navbar-header">
     <a class="navbar-brand">Food, LLC</a>
   </div>
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span>Menu</span>
-        <ul class="sr-only">
-            <li>Beef</li>
-            <li>Chicken</li>
-            <li>Sushi</li>
-        </ul>
+  <button type="button" class="navbar-toggle collapsed" id="dropdown-toggle" aria-expanded="false">
+    <span>Menu</span>
+</button>
+<div class="dropdown-menu" id="dropdown-menu">
+    <ul>
+        <li><a href="#beef-section">Beef</a></li>
+        <li><a href="#chicken-section">Chicken</a></li>
+        <li><a href="#sushi-section">Sushi</a></li>
+    </ul>
+</div>
+</div>
 </nav>
 </header>
     <!-- Page Heading -->
@@ -34,7 +38,7 @@
         <section class="main-section">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="section-head">Beef</h2>
+                    <h2 id="beef-section" class="section-head">Beef</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>
               </div>
                 </div>
@@ -45,7 +49,7 @@
         <section class="main-section">    
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="section-head">Chicken</h2>
+                    <h2 id="#chicken-section" class="section-head">Chicken</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>         
             
                 </div>
@@ -58,7 +62,7 @@
             
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="section-head">Sushi</h2>
+                    <h2 id="#sushi-section" class="section-head">Sushi</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices magna vel sapien fermentum, nec faucibus libero tristique. Phasellus pretium justo sed tortor ultrices, id pharetra odio tristique. Aliquam vel dui lacinia, tristique urna ut, fermentum ipsum. Integer eget lectus non quam volutpat cursus. Nulla facilisi. Phasellus ac nisl ut arcu lobortis ultricies. Donec ac semper felis. Sed non efficitur ex. Nunc suscipit convallis tortor, ac varius justo tristique at. Integer vel lobortis tortor. Sed tincidunt tellus a augue feugiat, in faucibus libero blandit. Vivamus nec metus ultricies, tempus turpis sed, laoreet eros. Sed in mauris vitae ipsum posuere fermentum. Nunc vehicula, enim et cursus feugiat, ex libero ultricies quam, nec bibendum lacus enim nec lorem. Sed consectetur urna vel dui commodo, vel consectetur lectus pellentesque. </p>
                 </div>
                 </div>
@@ -66,7 +70,8 @@
     </div>
    
 
-
-    <script src="js/bootstrap.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
+        
+
