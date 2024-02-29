@@ -1,5 +1,9 @@
-.main-section {
+.container section.main-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
     background-color: grey;
-    color: black;   
 }
-
+.section-head{ 
+    text-align: center;
+}
