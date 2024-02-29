@@ -1,9 +1,16 @@
-.container section.main-section {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    background-color: grey;
+.navbar {
+    margin-bottom: 0;
 }
-.section-head{ 
-    text-align: center;
+
+.navbar-brand {
+    padding: 15px 0;
+}
+
+.navbar-toggle {
+    margin: 10px 15px 10px 0;
+}
+
+.tall-section {
+    background-color: #f5f5f5; /* Set background color */
+    padding: 50px 0; /* Adjust padding */
 }
